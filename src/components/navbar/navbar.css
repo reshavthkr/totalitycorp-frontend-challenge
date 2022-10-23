@@ -1,0 +1,153 @@
+.navbar_main {
+  height: 100px;
+  position: sticky;
+  top: 0;
+  z-index: 129;
+  height: 72px;
+  transition: top 0.5s var(--transition-curve),
+    background-color 0.2s var(--transition-curve),
+    box-shadow 0.2s var(--transition-curve), color 0.2s var(--transition-curve);
+
+  --transition-curve: cubic-bezier(0.05, 0, 0.2, 1);
+}
+.bgwhite {
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(229 232 235) 0px 1px 0px 0px;
+}
+.logo {
+  width: 40px;
+}
+
+.brandname {
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.input_containter {
+  padding-left: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  cursor: text;
+  border-radius: 12px;
+
+  height: 48px;
+  font-size: 16px;
+  margin-right: 32px;
+}
+.input_containter img {
+  width: 20px;
+  margin-right: 10px;
+}
+.ipb {
+  border: 2px solid rgb(229, 232, 235);
+}
+
+.input_containter input {
+  outline: none;
+  border: none;
+  font-size: 20px;
+  background: transparent;
+}
+.nav_icon {
+  width: 35px;
+}
+.navItem-container {
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(0 0 0 / 16%) 0px 4px 16px;
+  top: 80px;
+  left: -20px;
+  width: 250px;
+  color: var(--color-text);
+  border-radius: 10px;
+  transition: all 2s ease 0s;
+}
+.stat_nic {
+  top: 25px;
+}
+.item {
+  width: 250px;
+  padding: 0px 15px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(229, 232, 235);
+}
+.item:hover {
+  transition: all 0.2s ease 0s;
+  box-shadow: rgb(4 17 29 / 25%) 0px 0px 8px 0px;
+  background-color: rgb(251, 253, 255);
+}
+.ni_img {
+  width: 30px;
+  margin-right: 10px;
+}
+.firstchild {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.lastchild {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.si_cont {
+  padding: 10px 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.social_ico {
+  width: 25px;
+}
+.prof_nic {
+  top: 30px;
+  left: -200px;
+}
+.imgc {
+  width: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .brandname {
+    font-size: 20px;
+  }
+  .navItem_cont {
+    box-sizing: border-box;
+    padding: 10px 10px;
+    z-index: 2221;
+    background: #fff;
+    top: 72px;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+  }
+  .ricon {
+    width: 20px;
+  }
+  .nic_item {
+    margin: 40px 0px;
+  }
+  .wlt-cnct {
+    background-color: rgb(32, 129, 226);
+    border: 2px solid rgb(32, 129, 226);
+    display: inline-flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 12px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    padding: 17px 24px;
+    background-color: rgb(32, 129, 226);
+    border: 2px solid rgb(32, 129, 226);
+    color: rgb(255, 255, 255);
+  }
+  .wlt-cnct {
+    margin-bottom: 10px;
+  }
+  .si_c_mob {
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    padding-top: 15px;
+  }
+}

@@ -1,0 +1,38 @@
+.li-card {
+  padding: 0px 5px;
+  box-sizing: border-box;
+}
+.li-card span {
+  text-align: right;
+}
+.li-card .lic_img {
+  width: 65px;
+  height: 65px;
+  border-radius: 10px;
+}
+.li-card h1 {
+  width: 10px;
+}
+.li-card:hover {
+  box-shadow: none;
+  background-color: rgba(229, 232, 235, 0.2);
+}
+.lic_name {
+  max-width: 250px;
+}
+.green {
+  color: rgb(52, 199, 123);
+}
+.red {
+  color: rgb(230, 41, 41);
+}
+
+@media only screen and (max-width: 600px) {
+  .mob_floor {
+    position: absolute;
+    left: 120px;
+    top: 35px;
+    font-size: 14px;
+    font-weight: normal;
+  }
+}
