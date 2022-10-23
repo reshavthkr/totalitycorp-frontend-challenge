@@ -7,4 +7,6 @@
 - In original site icons are used from the external libraries. But I had downloaded most related png to them.
 - Most of the element present in the website are similar to each other so I had created the components for them and reused that code.
 
-s
+## Deployed Link:
+
+[https://openseah.netlify.app/](https://openseah.netlify.app/)
